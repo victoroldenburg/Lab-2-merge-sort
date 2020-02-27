@@ -14,6 +14,10 @@ int main()
 	int p = 0;
 	int r = n - 1;
 
+	//double qD = floor((p + r) / 2);
+	//int q = (int)qD;
+	//Merge(A, p, q, r);
+
 	MergeSort(A, p, r);
 
 	printArray(A, n);
